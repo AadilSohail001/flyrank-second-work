@@ -1,16 +1,119 @@
-# React + Vite
+# 📝 React Task Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive **Task Manager** built with **React** using **Functional Components** and **React Hooks**. This application allows users to manage daily tasks with an intuitive interface and a clean glassmorphism-inspired design.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- ✅ Add new tasks
+- ✏️ Edit existing tasks
+- 🗑️ Delete tasks
+- ✔️ Mark tasks as completed
+- 🔄 Undo completed tasks
+- 📱 Responsive design for desktop and mobile
+- 🎨 Modern glassmorphism UI
+- ⚡ Built with React Hooks
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies Used
 
-## Expanding the ESLint configuration
+- React
+- JavaScript (ES6+)
+- CSS3
+- Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📂 Project Structure
+
+```text
+src/
+│── components/
+│   ├── TaskForm.jsx
+│   ├── TaskItem.jsx
+│   └── TaskList.jsx
+│
+│── App.jsx
+│── App.css
+│── main.jsx
+```
+
+---
+
+## 📦 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/AadilSohail001/flyrank-second-work.git
+```
+
+Navigate to the project:
+
+```bash
+cd flyrank-second-work
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 📸 Features Overview
+
+- Add tasks instantly
+- Edit task names
+- Delete unwanted tasks
+- Mark tasks as completed
+- Responsive layout
+- Smooth hover effects and animations
+
+---
+
+## 🤖 AI Assistance
+
+This project was developed with AI acting as a development assistant. AI was used to:
+
+- Generate the initial React component structure.
+- Suggest reusable component architecture.
+- Improve the CSS with a modern responsive UI.
+- Review the application for bugs.
+- Recommend code quality improvements and best practices.
+
+All generated code was manually reviewed, tested, and refined before completion.
+
+---
+
+## 🔮 Future Improvements
+
+- Local Storage support
+- Search tasks
+- Filter (All / Active / Completed)
+- Task priorities
+- Due dates
+- Drag and Drop
+- Dark / Light Theme
+- Toast notifications
+
+---
+
+## 👨‍💻 Author
+
+**Aadil Sohail**
+
+GitHub: https://github.com/AadilSohail001
+
+---
+
+## 📄 License
+
+This project is created for educational purposes as part of a React homework assignment.
